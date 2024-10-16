@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    /* Ensure the body takes full viewport height */
+}
+
+header {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 50px;
+    /* Adjust logo size as needed */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 70px);
+    /* Adjust to fill the viewport minus the header */
+    gap: 20px;
+}
+
+.left,
+.right {
+    flex: 1;
+    padding: 20px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.right {
+    position: relative;
+    height: 100%;
+    /* Fill the entire height of the parent */
+    overflow: hidden;
+}
+
+.right iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Make the iframe fill the entire right side */
+    border: none;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+        /* On larger screens, side-by-side */
+    }
+
+    .left,
+    .right {
+        flex: 1;
+        height: 100vh;
+        /* Full viewport height on desktop */
+    }
+
+    .right iframe {
+        height: 100%;
+        /* Full height of the right side */
+    }
+}
