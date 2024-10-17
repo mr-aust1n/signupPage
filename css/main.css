@@ -186,13 +186,13 @@ input::-moz-focus-inner {
 }
 
 ::-moz-selection {
-  background-color: #00dbde;
+  background-color: #2baae2;
   color: #212121;
   text-shadow: none;
 }
 
 ::selection {
-  background-color: #00dbde;
+  background-color: #2baae2;
   color: #212121;
   text-shadow: none;
 }
@@ -215,8 +215,8 @@ input::-moz-focus-inner {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: -webkit-gradient(linear, left top, left bottom, from(#2baae2), to(#00dbde));
-  background: linear-gradient(to bottom, #2baae2 0%, #00dbde 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#2baae2), to(#2baae2));
+  background: linear-gradient(to bottom, #2baae2 0%, #2baae2 100%);
   border-radius: 10px;
 }
 
@@ -764,7 +764,7 @@ p.section-text {
 
 .no-touch .media__copyright a:hover,
 .no-touch .side-copyright a:hover {
-  color: #00dbde;
+  color: #2baae2;
 }
 
 .side-copyright p {
@@ -1002,10 +1002,10 @@ p.section-text {
   left: 0;
   width: 100%;
   height: 300%;
-  background: -webkit-gradient(linear, left top, right top, from(#fc466b), to(#00dbde));
-  background: -moz-linear-gradient(left, #fc466b 0%, #00dbde 100%);
-  background: -o-linear-gradient(left, #fc466b 0%, #00dbde 100%);
-  background: linear-gradient(to right, #fc466b 0%, #00dbde 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#fc466b), to(#2baae2));
+  background: -moz-linear-gradient(left, #fc466b 0%, #2baae2 100%);
+  background: -o-linear-gradient(left, #fc466b 0%, #2baae2 100%);
+  background: linear-gradient(to right, #fc466b 0%, #2baae2 100%);
   -webkit-transition: -webkit-transform 0.5s;
   transition: -webkit-transform 0.5s;
   -o-transition: transform 0.5s;
@@ -1212,7 +1212,7 @@ form .inputs-description {
 }
 
 .reply-group__icon::before {
-  background: -webkit-linear-gradient(-45deg, #fc466b 0%, #00dbde 100%);
+  background: -webkit-linear-gradient(-45deg, #fc466b 0%, #2baae2 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1253,10 +1253,10 @@ form .inputs-description {
   left: 4px;
   width: 24px;
   height: 4px;
-  background: -webkit-gradient(linear, left top, right top, from(#fc466b), to(#00dbde));
-  background: -moz-linear-gradient(left, #fc466b 0%, #00dbde 100%);
-  background: -o-linear-gradient(left, #fc466b 0%, #00dbde 100%);
-  background: linear-gradient(to right, #fc466b 0%, #00dbde 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#ffff), to(#2baae2));
+  background: -moz-linear-gradient(left, ##fff 0%, #2baae2 100%);
+  background: -o-linear-gradient(left, ##fff 0%, #2baae2 100%);
+  background: linear-gradient(to right, ##fff 0%, #2baae2 100%);
 }
 
 @media only screen and (min-width: 768px) {
@@ -1405,9 +1405,9 @@ form .inputs-description {
   left: 0;
   width: 80px;
   height: 80px;
-  background: -moz-linear-gradient(315deg, #fc466b 0%, #00dbde 100%);
-  background: -o-linear-gradient(315deg, #fc466b 0%, #00dbde 100%);
-  background: linear-gradient(135deg, #fc466b 0%, #00dbde 100%);
+  background: -moz-linear-gradient(315deg, #fc466b 0%, #2baae2 100%);
+  background: -o-linear-gradient(315deg, #fc466b 0%, #2baae2 100%);
+  background: linear-gradient(135deg, #fc466b 0%, #2baae2 100%);
 }
 
 .header__logo img {
@@ -2096,7 +2096,7 @@ form .inputs-description {
 
 .navigation__item.active-link .link {
   color: #ffffff;
-  background: -webkit-linear-gradient(0deg, #fc466b 0%, #00dbde 100%);
+  background: -webkit-linear-gradient(0deg, #fc466b 0%, #2baae2 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2108,7 +2108,7 @@ form .inputs-description {
 .no-touch .navigation__item.active-link:hover .link {
   overflow: visible;
   color: #ffffff;
-  background: -webkit-linear-gradient(0deg, #fc466b 0%, #00dbde 100%);
+  background: -webkit-linear-gradient(0deg, #fc466b 0%, #2baae2 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -2174,7 +2174,7 @@ form .inputs-description {
   }
 
   .no-touch .socials ul li:hover a {
-    color: #00dbde;
+    color: #2baae2;
   }
 }
 
@@ -2399,7 +2399,7 @@ form .inputs-description {
 /* ------------------------------------------------*/
 .swiper {
   height: 100%;
-  background-color: #00dbde;
+  background-color: #2baae2;
 }
 
 .swiper-slide {
@@ -2413,7 +2413,7 @@ form .inputs-description {
   position: relative;
   width: 100%;
   height: 100%;
-  background-color: #00dbde;
+  background-color: #2baae2;
   background-position: center center;
   background-repeat: no-repeat;
   -moz-background-size: cover;
@@ -2478,10 +2478,10 @@ form .inputs-description {
 
 .swiper-pagination.main-pagination .swiper-pagination-bullet-active {
   height: 4px;
-  background: -webkit-gradient(linear, left top, right top, from(#fc466b), to(#00dbde));
-  background: -moz-linear-gradient(left, #fc466b 0%, #00dbde 100%);
-  background: -o-linear-gradient(left, #fc466b 0%, #00dbde 100%);
-  background: linear-gradient(to right, #fc466b 0%, #00dbde 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#fc466b), to(#2baae2));
+  background: -moz-linear-gradient(left, #fc466b 0%, #2baae2 100%);
+  background: -o-linear-gradient(left, #fc466b 0%, #2baae2 100%);
+  background: linear-gradient(to right, #fc466b 0%, #2baae2 100%);
   margin-bottom: -1px !important;
 }
 
@@ -3179,10 +3179,10 @@ form .inputs-description {
   left: 0;
   width: 0px;
   height: 2px;
-  background: -webkit-gradient(linear, left top, right top, from(#fc466b), to(#00dbde));
-  background: -moz-linear-gradient(left, #fc466b 0%, #00dbde 100%);
-  background: -o-linear-gradient(left, #fc466b 0%, #00dbde 100%);
-  background: linear-gradient(to right, #fc466b 0%, #00dbde 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#fc466b), to(#2baae2));
+  background: -moz-linear-gradient(left, #fc466b 0%, #2baae2 100%);
+  background: -o-linear-gradient(left, #fc466b 0%, #2baae2 100%);
+  background: linear-gradient(to right, #fc466b 0%, #2baae2 100%);
 }
 
 .skill-bar-percent {
@@ -3290,7 +3290,7 @@ form .inputs-description {
 }
 
 .no-touch .contact-data__item p a:hover {
-  color: #00dbde;
+  color: #2baae2;
 }
 
 .contact-data__item ul {
@@ -3309,7 +3309,7 @@ form .inputs-description {
 }
 
 .no-touch .contact-data__item ul li:hover a {
-  color: #00dbde;
+  color: #2baae2;
 }
 
 /* ------------------------------------------------*/
@@ -3402,9 +3402,9 @@ form .inputs-description {
   transform: translateX(0) rotate(0deg);
   width: 100%;
   height: 100%;
-  background: -moz-linear-gradient(315deg, #fc466b 0%, #00dbde 100%);
-  background: -o-linear-gradient(315deg, #fc466b 0%, #00dbde 100%);
-  background: linear-gradient(135deg, #fc466b 0%, #00dbde 100%);
+  background: -moz-linear-gradient(315deg, #fc466b 0%, #2baae2 100%);
+  background: -o-linear-gradient(315deg, #fc466b 0%, #2baae2 100%);
+  background: linear-gradient(135deg, #fc466b 0%, #2baae2 100%);
   -webkit-transition: -webkit-transform 0.5s;
   transition: -webkit-transform 0.5s;
   -o-transition: transform 0.5s;
@@ -3431,10 +3431,10 @@ form .inputs-description {
     top: -150%;
     left: 0;
     height: 300%;
-    background: -webkit-gradient(linear, left top, right top, from(#fc466b), to(#00dbde));
-    background: -moz-linear-gradient(left, #fc466b 0%, #00dbde 100%);
-    background: -o-linear-gradient(left, #fc466b 0%, #00dbde 100%);
-    background: linear-gradient(to right, #fc466b 0%, #00dbde 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#fc466b), to(#2baae2));
+    background: -moz-linear-gradient(left, #fc466b 0%, #2baae2 100%);
+    background: -o-linear-gradient(left, #fc466b 0%, #2baae2 100%);
+    background: linear-gradient(to right, #fc466b 0%, #2baae2 100%);
     -webkit-transform: translateX(-110%) rotate(25deg);
     -moz-transform: translateX(-110%) rotate(25deg);
     -ms-transform: translateX(-110%) rotate(25deg);
